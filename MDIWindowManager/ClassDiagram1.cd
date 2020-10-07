@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="MDIWindowManager.ButtonR" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ButtonR.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAgAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.DrawPanel" Collapsed="true">
+    <Position X="12" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DrawPanel.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.DummyForm" Collapsed="true">
+    <Position X="12" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DummyForm.vb</FileName>
+      <HashCode>AAgAAAAAICAABAAAAAGAIgACAAAgAAAAAACCAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WrappedWindowEventArgs" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.vb</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAABAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WrappedWindowClosedEventArgs" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAIEAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WrappedWindowCancelEventArgs" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.vb</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAABAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WrappedWindowClosingEventArgs" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>EventArgs.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAIEAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.PoppedOutWindowsManager" Collapsed="true">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>PoppedOutWindowsManager.vb</FileName>
+      <HashCode>ACAAAAAAAAAAACAAAAAAACgAAgAAIAAAABAAAEEQAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.SelectableUserControlFixer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SelectableUserControlFixer.vb</FileName>
+      <HashCode>AAAABAAAICAAAAIAAAAAAAAAgAAAAAAAAACAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MDIWindowManager.StandardTabsProvider" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>StandardTabsProvider.vb</FileName>
+      <HashCode>AECAdAJQRqBSGARQKAiSRwSKAkIJgAQORoUIAiwAoAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.SubclassedSystemMenu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SubclassedSystemMenu.vb</FileName>
+      <HashCode>AAgAAAAAACAACIAAQAAAAAAAIABAABIAACAAQAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MDIWindowManager.SystemTabsProvider" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SystemTabsProvider.vb</FileName>
+      <HashCode>AAMgZAAAFiEESARAAACAAAICLDAggAAAAAAAIAACAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.TabsProviderBase" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>TabsProviderBase.vb</FileName>
+      <HashCode>AQAgZQZjYiAFDAwECgCEgCAGAKQAABAgAAkAABQgQAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MDIWindowManager.WindowManagerPanel" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>WindowManagerPanel.vb</FileName>
+      <HashCode>Bf/X33XLOzs3+fH//ff///6+vN93s2PjvVk/vtW97fc=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WindowManagerPanelMinModeBar" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WindowManagerPanelMinModeBar.vb</FileName>
+      <HashCode>AAABFAAAACAAAAAAAACAAAgCAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WindowManagerSplitter" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WindowManagerSplitter.vb</FileName>
+      <HashCode>AECAAAABADAQAAAAAACAAAQCAAgAADgABABAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WindowsForm" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WindowsForm.vb</FileName>
+      <HashCode>AAABIAQAADABAAAAAACKAAAKAAAAAAgEAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WindowTabStrip" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WindowTabStrip.vb</FileName>
+      <HashCode>CZUJEAIAcrAhCQgAkGCIBgYGINKCAAAQFBOIAAAYAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WindowTabStripCollectionException" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WindowTabStripCollection.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WindowTabStripCollection" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WindowTabStripCollection.vb</FileName>
+      <HashCode>AEYEAEEAAQQAABAQAAEABAgECIAAAgAAAAAAACAQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WrappedWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WrappedWindow.vb</FileName>
+      <HashCode>BAAAACIAJCCAACBwAhXGABoQAIEAMFAQFABIDgEAAAE=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MDIWindowManager.WrappedWindowCollectionException" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WrappedWindowCollection.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WrappedWindowCollection" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WrappedWindowCollection.vb</FileName>
+      <HashCode>AUYEAGABABQAABAwABGCBhoEAIEAIgAAEAgIBBEwAAM=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WrappedWindowDragDropData" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WrappedWindowDragDropData.vb</FileName>
+      <HashCode>AIQAAAgAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WrappedWindowMenuItem" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WrappedWindowMenuItem.vb</FileName>
+      <HashCode>AIAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAAAEABAAAEAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MDIWindowManager.WrappedWindowSplitter" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>WrappedWindowSplitter.vb</FileName>
+      <HashCode>AAAAAAAAADAAgAAAAACAAAACAAAAADACAADAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MDIWindowManager.ITabsProvider" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>ITabsProvider.vb</FileName>
+      <HashCode>AAAgAQJAYAABAAQACgCAgAAEAIQAABAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MDIWindowManager.IWrappedWindow" Collapsed="true">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IWrappedWindow.vb</FileName>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Module Name="MDIWindowManager.Global" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Global.vb</FileName>
+      <HashCode>AAAAAAABAAAAAAAAAABAAAACAAAAAABAAAAABCAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+</ClassDiagram>

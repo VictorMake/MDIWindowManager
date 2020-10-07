@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{849B740B-995A-4F40-82EE-173B1C3B1501}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>MDIWindowManager</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>MDIWindowManager</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MDIWindowManager.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRules>+!Microsoft.Naming#CA1709;+!Microsoft.Naming#CA1715;+!Microsoft.Naming#CA1710;+!Microsoft.Naming#CA1711</CodeAnalysisRules>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MDIWindowManager.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MathematicalLibrary">
+      <HintPath>..\..\..\..\MathematicalLibrary\MathematicalLibrary\bin\Release\MathematicalLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ButtonR.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DrawPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DummyForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enums.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventArgs.vb" />
+    <Compile Include="Global.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ITabsProvider.vb" />
+    <Compile Include="IWrappedWindow.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PoppedOutWindowsManager.vb" />
+    <Compile Include="SelectableUserControlFixer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SubclassedSystemMenu.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SystemTabsProvider.Designer.vb">
+      <DependentUpon>SystemTabsProvider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemTabsProvider.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WindowManagerButton.Designer.vb">
+      <DependentUpon>WindowManagerButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WindowManagerButton.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WindowManagerPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WindowManagerPanelMinModeBar.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WindowManagerSplitter.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WindowsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowTabStrip.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WindowTabStripCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TabsProviderBase.Designer.vb">
+      <DependentUpon>TabsProviderBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TabsProviderBase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StandardTabsProvider.Designer.vb">
+      <DependentUpon>StandardTabsProvider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="StandardTabsProvider.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WrappedWindow.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WrappedWindowCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WrappedWindowDragDropData.vb" />
+    <Compile Include="WrappedWindowMenuItem.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WrappedWindowSplitter.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <EmbeddedResource Include="ButtonR.resx">
+      <DependentUpon>ButtonR.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DrawPanel.resx">
+      <DependentUpon>DrawPanel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DummyForm.resx">
+      <DependentUpon>DummyForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowManagerPanel.resx">
+      <DependentUpon>WindowManagerPanel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowManagerPanelMinModeBar.resx">
+      <DependentUpon>WindowManagerPanelMinModeBar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowManagerSplitter.resx">
+      <DependentUpon>WindowManagerSplitter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowsForm.resx">
+      <DependentUpon>WindowsForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowTabStrip.resx">
+      <DependentUpon>WindowTabStrip.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WrappedWindowMenuItem.resx">
+      <DependentUpon>WrappedWindowMenuItem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WrappedWindowSplitter.resx">
+      <DependentUpon>WrappedWindowSplitter.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="License.txt" />
+    <None Include="ReadMe.txt" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemTabsProvider.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SystemTabsProvider.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowManagerPanel.bmp" />
+    <EmbeddedResource Include="TabsProviderBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabsProviderBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StandardTabsProvider.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StandardTabsProvider.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd">
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Documentation\MDIWindowManagerPanel Overview.doc">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

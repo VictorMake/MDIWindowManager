@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07B59AB9-F3DF-4AED-B02D-B98A3C67A5A7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>MDIWindowManager_Test.My.MyApplication</StartupObject>
+    <RootNamespace>MDIWindowManager_Test</RootNamespace>
+    <AssemblyName>MDIWindowManager Test</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>MDIWindowManager Test.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>MDIWindowManager Test.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChildAuxForm.designer.vb">
+      <DependentUpon>ChildAuxForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChildAuxForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForm1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildForm2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChildFormIntro.designer.vb">
+      <DependentUpon>ChildFormIntro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChildFormIntro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormAdvanced.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormAltTabs.Designer.vb">
+      <DependentUpon>MainFormAltTabs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormAltTabs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormCustomPaint.Designer.vb">
+      <DependentUpon>MainFormCustomPaint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormCustomPaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainFormSimple.designer.vb">
+      <DependentUpon>MainFormSimple.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainFormSimple.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChildAuxForm.resx">
+      <DependentUpon>ChildAuxForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForm1.resx">
+      <DependentUpon>ChildForm1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildForm2.resx">
+      <DependentUpon>ChildForm2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChildFormIntro.resx">
+      <DependentUpon>ChildFormIntro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="Resources\Intro.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainFormAdvanced.resx">
+      <DependentUpon>MainFormAdvanced.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFormAltTabs.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainFormAltTabs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFormCustomPaint.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainFormCustomPaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainFormSimple.resx">
+      <DependentUpon>MainFormSimple.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Books 2.ico" />
+    <EmbeddedResource Include="Resources\Calender 1.ico" />
+    <EmbeddedResource Include="Resources\Calender 2.ico" />
+    <EmbeddedResource Include="Resources\LETTER.ICO" />
+    <EmbeddedResource Include="Resources\MAIL03.ICO" />
+    <EmbeddedResource Include="Resources\MISC28.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MDIWindowManager\MDIWindowManager.vbproj">
+      <Project>{849B740B-995A-4F40-82EE-173B1C3B1501}</Project>
+      <Name>MDIWindowManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Vs05StTabsProvider\Vs05StTabsProvider.vbproj">
+      <Project>{C3407705-E9E5-4586-98A2-6DA8F06C375D}</Project>
+      <Name>Vs05StTabsProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
